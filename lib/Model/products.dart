@@ -4,7 +4,7 @@ List<String> groceryCategories = [
   'ALL',
   'Fruit',
   'Vegetable',
-  'Meat',
+  // 'Meat',
   'Dairy',
 ];
 
@@ -116,26 +116,26 @@ List<Grocery> groceryItems = [
     rate: 3.9,
     price: 11.11,
   ),
-  Grocery(
-    category: 'Meat',
-    image: 'assets/grocery/kfc chicken.png',
-    isRecent: false,
-    description: description,
-    name: 'KFC Chicken',
-    color: Colors.orangeAccent,
-    rate: 4.0,
-    price: 20.0,
-  ),
-    Grocery(
-    category: 'Dairy',
-    image: 'assets/grocery/paneer.png',
-    isRecent: false,
-    description: description,
-    name: 'Paneer',
-    color: Colors.pink,
-    rate: 5.0,
-    price: 15.5,
-  ),
+  // Grocery(
+  //   category: 'Meat',
+  //   image: 'assets/grocery/kfc chicken.png',
+  //   isRecent: false,
+  //   description: description,
+  //   name: 'KFC Chicken',
+  //   color: Colors.orangeAccent,
+  //   rate: 4.0,
+  //   price: 20.0,
+  // ),
+  //   Grocery(
+  //   category: 'Dairy',
+  //   image: 'assets/grocery/paneer.png',
+  //   isRecent: false,
+  //   description: description,
+  //   name: 'Paneer',
+  //   color: Colors.pink,
+  //   rate: 5.0,
+  //   price: 15.5,
+  // ),
 ];
 const description =
     "are an essential part of a healthy diet, providing the body with a wide range of nutrients, vitamins, and minerals that are crucial for overall well-being. Apples, for example, are not only rich in dietary fiber, which aids digestion and promotes gut health, but they also contain antioxidants that help reduce the risk of chronic diseases. Regular consumption of apples can improve heart health, lower cholesterol levels, and contribute to better weight management";

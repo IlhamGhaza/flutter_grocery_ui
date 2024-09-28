@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery_ui/presentation/home_pages.dart';
+
+import '../presentation/home_pages.dart';
+import '../presentation/mail_page.dart';
+import '../presentation/profile_page.dart';
+
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({super.key});
@@ -11,11 +15,11 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   int currentIndex = 0;
   final List<Widget> pages = [
-    const HomePages(),
+    const HomeScreenGrocery(),
     const Center(child: Text("Data")),
-    const HomePages(),
-    const Center(child: Text("Mail")),
-    const Center(child: Text("Profile")),
+    const HomeScreenGrocery(),
+    const MailPage(),
+    const ProfilePage(),
   ];
   @override
   Widget build(BuildContext context) {
